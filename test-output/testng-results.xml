@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-29T06:20:39Z" name="Default suite" finished-at="2024-11-29T06:20:46Z" duration-ms="7121">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pawaracademy.Cucumber.TestNGTestRunner@4ff8d125]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-29T06:20:39Z" name="Default test" finished-at="2024-11-29T06:20:46Z" duration-ms="7121">
+      <class name="pawaracademy.Cucumber.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:pawaracademy.Cucumber.TestNGTestRunner@4ff8d125]" started-at="2024-11-29T06:20:39Z" name="setUpClass" finished-at="2024-11-29T06:20:39Z" duration-ms="387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6f1a16fe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pawaracademy.Cucumber.TestNGTestRunner@4ff8d125]" started-at="2024-11-29T06:20:39Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T06:20:46Z" duration-ms="6712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["E2E validation for submit order from E-commerence"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:pawaracademy.Cucumber.TestNGTestRunner@4ff8d125]" started-at="2024-11-29T06:20:46Z" name="tearDownClass" finished-at="2024-11-29T06:20:46Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- pawaracademy.Cucumber.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
